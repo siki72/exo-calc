@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <script src="./index.js" type="module" defer></script>
+    <link rel="stylesheet" href="style.css" />
+    <title>Document</title>
+  </head>
+  <body>
+    <div class="game-container">
+      <span class="right-respons">Correct !</span>
+      <span class="rowng-respons">mauvaise reponse !</span>
+      <div class="calc">
+        <span id="number-1"></span><span>+</span><span id="number-2"></span>
+      </div>
+      <h2>Donner la reponse</h2>
+      <form action="">
+        <input type="number" name="input" id="response" min="0" />
+        <span class="reponse-number">veuillez entrez une réponse</span>
+        <input class="reset" type="button" value="reset" />
+        <button type="submit" id="submit">soumettre</button>
+      </form>
+    </div>
+  </body>
+</html>
